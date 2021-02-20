@@ -1,0 +1,39 @@
+@mixin menu_bloque {
+    display:inline-block;
+    background-color: $bg_anclas;
+    position: relative;
+    top: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+@mixin menu_titulo {
+    text-decoration: none;          
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+header{
+    position: relative;
+    background-image: url($image_menu);
+    background-size: 100% 100%;
+    height: 400px;
+    div{
+        width: 24.8%;
+        @include menu_bloque;
+        a{
+            font-size: 25px;
+            @include menu_titulo;
+        }
+    }
+    @media (max-width: $breakpoint_responsive) {
+        div{
+            width: 100%;
+            @include menu_bloque;
+            a{
+                font-size: 25px;
+                @include menu_titulo;
+            }
+        }
+    }
+}

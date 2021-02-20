@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 2 - Blog</title>
+  <style>
+      nav{
+          border-bottom: 15px dotted blue;
+      }
+      body{
+          font-family: 'Calibri', sans-serif;
+      }
+      li{
+          list-style-type: none;
+      }
+      h1, h2 {
+          color: red;
+          font-size: 24px;
+          text-align: center;      
+      }
+      p{
+          color: gray;
+          font-size: 16px;
+      }
+      form{
+          border: 10px dashed orange;
+      }
+      #navegacion{
+          position: absolute;
+          right: 0;
+          top: 0;
+      }
+      header{
+          position: relative;
+          background-color: lightgray;
+          border-bottom: 2px black solid;
+      }
+
+      #navegacion li{
+          display: inline-block;
+      }
+
+      .header h1, header img{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      header img{
+        height: auto;  
+        width: 50px;
+      }
+
+      .noticia{
+          display: inline-block;
+          width: 400px;
+          margin: 10px;
+          padding: 30px;
+          vertical-align: top;
+      }
+
+  </style>
+</head>
+<body>
+    <header>
+        <img src= "https://via.placeholder.com/150">  
+        <h1>Blog</h1>
+        <nav id="navegacion">
+          <ul>
+              <li>Home</li>
+              <li>Blogs</li>
+              <li>Contacto</li>
+          </ul>
+      </nav>
+    </header>
+  <section>
+      <article class="noticia">
+        <h2>Titulo de Post 1</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </article>
+    <article class="noticia">
+        <h2>Titulo de Post 2</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>      
+    </article>          
+  </section>
+  <form action="">
+    <label for="nombre">Nombre:</label>
+    <input required id="nombre" name="nombre" type="text" placeholder="Juan"><br>
+    <label for="apellido">Apellido:</label>
+    <input id="apellido" name="apellido" type="text" placeholder="Perez"><br>
+    <label for="email">Correo:</label>
+    <input required id="email" name="email" type="email" placeholder="prueba@gmail.com"><br>
+    <label for="edad">Edad:</label>
+    <input id="edad" name="edad" type="number" placeholder="20"><br>
+    <button type="submit">Enviar</button>
+  </form>
+  <footer>
+      Copyright 2020
+  </footer>
+</body>
+</html>

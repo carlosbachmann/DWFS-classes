@@ -1,0 +1,85 @@
+@mixin primerArticulo {
+    position: relative;
+    width: 35vw;
+    vertical-align: top;
+    left: 0;
+}
+
+body{
+    section{
+        padding: 40px;
+        h2{
+            color: $color_titulo;
+            font-size: $size_titulo;
+        }
+        h3{
+            color: $color_subittulo;
+        }
+        article{
+            img{
+                border-radius: 50%;
+                height: 300px;
+                width: 300px;
+            }
+            .articulo1{
+                display: inline-block;
+                padding-top: 30px;
+                @include primerArticulo();
+                p{
+                    width: 900px;
+                    text-align: justify;
+                }
+            }
+            @media (max-width: $breakpoint_responsive) {
+                .articulo1{
+                    display: block;
+                    padding-top: 100px;
+                    @include primerArticulo();
+                    p{
+                        width: 700px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .articulo2{
+                position: relative;
+                display: inline-block;
+                width: 600px;
+                vertical-align: top;
+                left: 0;
+            }
+        }
+        form{
+            background-color: $font_form;
+            border-radius: 5px;
+            padding: 20px;
+            width: 450px;
+            height: 120px;
+
+            .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+                font-size: 16px;
+            }
+              
+              .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+            }
+            button{
+                background-color: $color_bt_form;
+                color: $color_bt_tx_form;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+            }
+            button:hover{
+                background-color: #45a049;
+            }
+        }
+    }
+}

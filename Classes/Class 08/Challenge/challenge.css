@@ -1,0 +1,52 @@
+#contenedor{
+    position: relative;
+    overflow: hidden;
+}
+
+.bloque1{
+    display: inline-block;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+.bloque2{
+    display: inline-block;
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 900px){
+    .bloque1{
+        display: block;
+        background-color: skyblue;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .bloque2{
+        display: block;
+        background-color: orange;
+        width: 400px;
+        height: 400px;
+    } 
+}
+
+@media screen and (max-width: 450px){
+    .bloque1{
+        display: block;
+        background-color: skyblue;
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .bloque2{
+        display: block;
+        background-color: orange;
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+    } 
+}

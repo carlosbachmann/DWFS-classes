@@ -1,0 +1,17 @@
+.box{
+    display: inline-block;
+    margin-right: ;
+}
+
+.box-father{
+    background: #257db8;
+    width: 700px;
+    overflow: hidden;
+}
+
+.float-box{
+    background: #7ae3e7;
+    color: #fff;
+    font-size:38px;
+    height: ;
+}

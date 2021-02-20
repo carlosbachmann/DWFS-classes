@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* img {
+    /* position: absolute;
+} */
+header {
+  /* position: relative; */
+  background-image: url("https://blogs.unsw.edu.au/nowideas/files/2020/03/eventos-corporativos.jpg");
+  height: 400px;
+  display: block;
+  border: 1px black solid;
+  /* h3{
+        position: relative;
+        display: inline-block;
+        background-color: rgb(235, 98, 98);
+        padding-left: 300px;
+        top:400px;
+    } 
+    ¿A qué quisiste llamar h3?¿Te referías al anchor, al header?*/
+}
+
+.menu {
+  border: 1px black solid;
+  position: relative;
+}
+
+.formulario {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: right;
+  height: 400px;
+  width: 400px;
+  border: 1px black solid;
+}
+
+/* esto me queda pendiente porque no doy pie con bola con las cajas :P */
+article .caja {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+}
+
+footer {
+  text-align: center;
+  border: 1px black solid;
+}
+/*# sourceMappingURL=styles.css.map */

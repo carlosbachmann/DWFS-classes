@@ -1,0 +1,107 @@
+*{
+    margin:10px;
+    background-color: skyblue;
+    position: relative;
+}
+
+header .section1{
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+    margin: 60px;
+    padding: 20px;
+    vertical-align: top;
+    left: 200px;
+}
+
+header li{
+    color:steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: square;
+    font-style: oblique;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+header p{
+    color:midnightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:inherit;
+}
+
+img{
+    border: 10px dotted purple; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    transition: transform 8s;
+}
+
+div img{
+    position: sticky;
+}
+
+div:hover img{
+    transform: rotate(360deg);
+}
+
+span .section2{
+    display: inline-block;
+    width: 500px;
+    height: 450px;
+    margin: 40px;
+    padding: 20px;
+    vertical-align: top;
+    left: 200px;
+}
+
+span ol{
+    color:steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type:initial;
+    font-style: oblique;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+footer .section3{
+    position: relative;
+    left: 265px;
+}
+
+footer .section4{
+    position: absolute;
+    right: 0;
+}
+
+body h1{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+body h2{
+    color:green;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+footer h3{
+    color:green;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+footer a{
+    color:blueviolet;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+footer div{
+    margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.formulario {
+    box-sizing: border-box;
+    text-align: right;
+    height: 400px;
+    width: 400px;
+    @include bordedecajanegra;
+} /* esto me queda pendiente porque no doy pie con bola con las cajas :P */
+
+
+article .caja {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    
+    @include bordedecajanegra;
+}

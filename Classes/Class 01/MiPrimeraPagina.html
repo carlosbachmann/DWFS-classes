@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página web</title>
+  <style>
+      body{ background-color: darkgrey; }
+      h1{ color: red; }
+      h6{ padding-left: 20px; }
+      p{ background-color: black; color: white}
+  </style>
+</head>
+<body>
+  <h1 id="nombre">Carlos Augusto Bachmann</h1>
+  <h6 id="fechaNacimiento">03/10/1992</h6>
+  <p id="descripcion">Tengo 28 años y vivo en Lima, Peru</p>
+
+<script>
+    nombre = document.getElementById('nombre');
+    nombre.addEventListener("click", function(){ alert("Bienvenido a mi sitio web") } );
+
+    descripcion = document.getElementById('descripcion');
+    descripcion.addEventListener("mouseenter", function(){
+        descripcion.style.color = "black";
+        descripcion.style.backgroundColor = "white";
+    });
+
+    descripcion.addEventListener("mouseout", function(){
+        descripcion.style.color = "white";
+        descripcion.style.backgroundColor = "black";
+    });
+</script>    
+
+</body>
+</html>

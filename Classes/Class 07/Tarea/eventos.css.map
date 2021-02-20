@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,MAAM,CAAA;EACF,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,gFAAgF;EAClG,aAAa,EAAE,eAAe;EAC9B,MAAM,EAAE,KAAK;CAUhB;;AAdD,AAMI,MANE,CAMF,CAAC,CAAA;EACG,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,YAAY;EACrB,cAAc,EAAE,MAAM;EACtB,gBAAgB,EAAE,OAAgB;EAClC,YAAY,EAAE,KAAK;EACnB,GAAG,EAAC,KAAK;CACZ",
+    "sources": [
+        "eventos.scss",
+        "partials/_articulos.scss",
+        "partials/_footer.scss",
+        "partials/_header.scss",
+        "partials/_variables.scss"
+    ],
+    "names": [],
+    "file": "eventos.css"
+}

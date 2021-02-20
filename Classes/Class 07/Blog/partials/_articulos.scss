@@ -1,0 +1,31 @@
+%column{
+    display: inline-block;
+    width: 400px;
+    margin: 10px;
+    padding: 30px;
+    vertical-align: top;
+}
+
+body{
+    font-family: 'Calibri', sans-serif;
+}
+
+p{
+    color: $color_gris;
+    font-size: 16px;
+}
+
+form{
+    border: 10px dashed $color_naranja;
+    @extend %column;
+}
+
+h1, h2 {
+    color: $color_rojo;
+    font-size: 24px;
+    text-align: center;      
+}
+
+.noticia{
+    @extend %column;
+}

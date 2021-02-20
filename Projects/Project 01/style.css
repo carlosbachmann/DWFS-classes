@@ -1,0 +1,24 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+body header {
+  overflow: hidden;
+}
+
+#menuToggle {
+  float: right;
+}
+
+@media (min-width: 320px) {
+  #menuToggle .fa {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  #menuToggle ul {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

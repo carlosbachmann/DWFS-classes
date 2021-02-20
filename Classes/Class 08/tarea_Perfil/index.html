@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="bloque1"><a href="#sobreMi">Sobre mi</a></div>
+        <div class="bloque2"><a href="#estudios">Estudios</a></div>
+        <div class="bloque3"><a href="#proyectos">Proyectos</a></div>
+        <div class="bloque4"><a href="#conocimientos">Conocimientos</a></div>
+    </header>
+    <section>
+        <article>
+            <div class = "articulo1">
+                <img src="images/Neo.jpeg" alt="">
+            </div>
+            <div class = "articulo1">
+                <h2 id="sobreMi">Sobre mi</h2>
+                <p>Me llamo Carlos Bachmann, tengo 28 años y soy peruano de nacimiento. Mis principales pasatiempos son la lectura, videojuegos y ver peliculas o series. Además me considero una persona bastante deportista. Respecto al trabajo, soy una persona bastante sociable, dedicado y con ganas constantes de aprender y mejorar.</p><br>
+                <h2 id="estudios">Estudios</h2>
+                <ul>
+                    <li>
+                        <h3>Pontificie Universidad Catolica del Perú</h3>
+                        <p>Bachiller en Ingenieria Informatica</p>
+                    </li>
+                </ul>
+            </div> 
+        </article>
+    </section>
+    <section>
+        <article>
+            <div class="articulo2">
+                <h2 id="proyectos">Proyectos</h2>
+                <ul>
+                    <li>
+                        <h3>Juego RPG</h3>
+                        <p>Diseño y desarrollo de un juego RPG compuesto por laberintos utilizando JAVA.</p>
+                    </li>
+                    <li>
+                        <h3>Sistema de administración de laboratorios de calidad</h3>
+                        <p>Análisis, diseño e implementación de un sistema para la gestión de laboratorios de la PUCP, el cual trabajo en Linux y empleo el lenguaje de Programación Ruby y PostgreSQL para el manejo de la base de datos.</p>
+                    </li>
+                    <li>
+                        <h3>Sistema de información para almacenes</h3>
+                        <p>Análisis y diseño de un sistema para la gestión y control de almacenes en una empresa ferretera utilizando JAVA FX y PostgreSQL para el manejo de la base de datos.</p>
+                    </li>
+                    <li>
+                        <h3>Aplicación móvil informativa para centro comercial</h3>
+                        <p>Análisis y diseño e implantación de un Sistema para el soporte de servicios a usuarios en un centro comercial utilizando React Native.</p>
+                    </li>
+                    <li>
+                        <h3>Sistema para seleccion de personal</h3>
+                        <p>Análisis, diseño e implementación de un sistema de información para seleccionar personal en empresas grandes usando reglas de una base de conocimiento de expertos en el área, se utilizó JAVA FX y PostgreSQL para el manejo de la base de datos.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="articulo2">
+                <h2 id="conocimientos">Conocimientos</h2>
+                <ul>
+                    <li>
+                        <h3>Lenguajes de Programación</h3>
+                        <ul>
+                            <li>Pascal, C, C++, C# y VBA (Visual Basic for Applications) a nivel avanzado</li>
+                            <li>Pytohn a nivel intermedio</li>
+                            <li>JAVA a nivel intermedio</li>
+                            <li>Ruby a nivel básico</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Base de datos</h3>
+                        <ul>
+                            <li>SQL a nivel avanzado</li>
+                            <li>PostgreSQL a nivel básico</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Analytica Digital</h3>
+                        <ul>
+                            <li>Google Analytics a nivel intermedio</li>
+                            <li>Google Tag Manager a nivel intermedio</li>
+                            <li>Google Optimize a nivel intermedio</li>
+                            <li>Google Data Studio a nivel intermedio</li>
+                            <li>BigQuery a nivel intermedio</li>
+                            <li>Firebase a nivel intermedio</li>
+                            <li>Hotjar a nivel intermedio</li>
+                            <li>Power BI a nivel básico</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Ofimatica</h3>
+                        <ul>
+                            <li>Word a nivel avanzado</li>
+                            <li>Power Point a nivel avanzado</li>
+                            <li>Excel a nivel avanzado</li>
+                            <li>Access a nivel intermedio</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </article> 
+        <div>
+            <form action="">
+                <div class="col-25">
+                    <label for="nombre">Nombre:</label>
+                </div>
+                <div class="col-75">
+                    <input required id="nombre" name="nombre" type="text" placeholder="Juan"><br>
+                </div>
+                <div class="col-25">
+                    <label for="apellido">Apellido:</label>
+                </div>
+                <div class="col-75">
+                    <input required id="apellido" name="apellido" type="text" placeholder="Perez"><br>
+                </div>
+                <div class="col-25">
+                    <label for="email">Correo:</label>
+                </div>
+                <div class="col-75">
+                    <input required id="email" name="email" type="email" placeholder="prueba@gmail.com"><br>
+                </div>
+                <div class="col-25">
+                    <label for="tel">Telefono:</label>
+                </div>
+                <div class="col-75">
+                    <input required id="tel" name="telefono" type="tel" placeholder="987654321"><br>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>

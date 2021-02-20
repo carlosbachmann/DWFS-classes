@@ -1,0 +1,39 @@
+header{
+    position: relative;
+    background-color: $color_rosa;
+    border-bottom: 2px $color_black solid;
+    width: 100%;
+
+    h1,img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img{
+        height: auto;
+        width: 50px;
+    }
+}
+#navegacion {
+    border-bottom: 15px dotted blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+    li{
+        display: inline-block;
+        list-style-type: none;
+    }
+    @media (max-width: $breakpoint_mobile) {
+        position: initial;
+        
+        li{
+            display: block;
+        }
+    }
+  
+}
+
+
+

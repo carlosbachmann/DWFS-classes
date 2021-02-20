@@ -1,0 +1,63 @@
+img{
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+
+.eje{
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 400px;
+    left: 400px;
+}
+
+.segundero{
+    transform-origin: top;
+    animation: girar 60s steps(60) infinite;
+    background-color: black;
+    position: absolute;
+    width: 6px;
+    height: 300px;
+    top: 5px;
+    left: 5px;
+}
+
+.minutero{
+    transform-origin: top;
+    animation: girar 3600s steps(60) infinite;
+    background-color: blue;
+    position: absolute;
+    width: 8px;
+    height: 200px;
+    top: 5px;
+    left: 5px;
+}
+
+.hora{
+    transform-origin: top;
+    animation: girar 43200s linear infinite;
+    background-color: green;
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    top: 5px;
+    left: 5px;
+}
+
+.tapa{   
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes girar{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

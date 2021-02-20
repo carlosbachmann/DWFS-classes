@@ -1,0 +1,40 @@
+body{
+    
+    section{
+        font-family: 'Calibri', sans-serif;
+        padding: 20px;
+
+        article{
+            
+            h2{
+                color: rgb(102, 102, 102);
+            }
+            p{
+                width: 50vw;
+            }
+
+            .articulo1{
+                position: relative;
+                display: inline-block;
+                text-align: justify;
+                width: 35vw;
+                padding-top: 30px;
+                vertical-align: top;
+                left: 0;
+            }
+
+            img{
+                border-radius: 50%;
+                height: 300px;
+                width: 300px;
+            }         
+        }
+
+        .articulo2{
+            position: relative;
+            display: inline-block;
+            width: 35vw;  
+        }
+    }
+    
+}

@@ -1,0 +1,14 @@
+
+.bloque1{
+    background-color: blue;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transition: transform 4s;
+}
+
+div:hover{
+    background-color: grey;
+    transform: rotate(360deg);
+  }

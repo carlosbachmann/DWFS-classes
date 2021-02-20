@@ -1,0 +1,22 @@
+body{
+    font-family: $ibm_mono;
+
+    header{
+        overflow: hidden;
+    }
+}
+
+#menuToggle{
+        float: right;
+        @media (min-width: $breakpoint_mobile){
+            .fa{
+                display: none;
+            }
+        }    
+        @media (max-width: $breakpoint_mobile){
+            ul{
+                display: none;
+            }
+        }
+    
+}
